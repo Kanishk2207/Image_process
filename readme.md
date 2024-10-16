@@ -77,5 +77,7 @@ FastAPI API Docs: http://localhost:8000/docs
 
 ## API Endpoints
 POST /api/upload: Upload a CSV file for processing.
+
 GET /api/status/{request_id}: Check the status of a processing request.
+
 GET /api/download/{request_id}: Download the processed results as a CSV file.
